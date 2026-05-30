@@ -5,24 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
-            font-family: Arial;
+            font-family: Arial, sans-serif;
             margin: 0;
             background-color: #f4f6f8;
             color: #333;
-            text-align: center;
         }
+
         header {
             background-color: #0a4b78;
             color: white;
-            padding: 20px;
+            padding: 35px 20px;
+            text-align: center;
         }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
         section {
-            padding: 40px;
+            padding: 25px 40px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
         }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-position: inside;
+            padding-left: 0;
+            line-height: 1.7;
+        }
+
+        .cta-button {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #0a4b78;
+            color: white;
+            padding: 12px 22px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #083b60;
+        }
+
         footer {
             background-color: #0a4b78;
             color: white;
+            text-align: center;
             padding: 15px;
+            margin-top: 25px;
         }
     </style>
 </head>
@@ -30,21 +67,32 @@
 
 <header>
     <h1>DelTech Consulting LLC</h1>
-    <p>Modern IT & Microsoft 365 Consulting</p>
+    <p>Modern IT Solutions & Microsoft 365 Consulting</p>
 </header>
 
 <section>
     <h2>About Us</h2>
-    <p>We specialize in Microsoft 365, Azure cloud solutions, and IT consulting.</p>
+    <p>
+        DelTech Consulting LLC provides professional IT consulting services specializing in
+        Microsoft 365, cloud solutions, and secure infrastructure deployments.
+        We help organizations modernize operations, improve collaboration, and
+        maintain compliance.
+    </p>
+
+    <a href="mailto:info@deltechconsultingllc.com" class="cta-button">
+        Schedule a Consultation
+    </a>
 </section>
 
 <section>
-    <h2>Services</h2>
-    <ul style="list-style:none;">
-        <li>Microsoft 365 Implementation</li>
-        <li>Azure Cloud Deployments</li>
-        <li>Security & Compliance (Intune, Conditional Access)</li>
-        <li>SharePoint & Automation Solutions</li>
+    <h2>Professional Services</h2>
+    <ul>
+        <li>Microsoft 365 Administration</li>
+        <li>Microsoft Intune & Endpoint Management</li>
+        <li>Azure Cloud Solutions</li>
+        <li>Security & Compliance</li>
+        <li>SharePoint & Power Platform Solutions</li>
+        <li>IT Consulting & Project Delivery</li>
     </ul>
 </section>
 
